@@ -97,6 +97,49 @@ border-radius: 10px;
 .logo-header-item {
   color: #939393;
 }
+
+/*--------PRICING---------*/
+.container-prising{
+	align-items: center;
+    justify-content: center;
+}
+.title-pricing{
+	display: inline-block;
+margin-bottom: 96px;
+margin-left: auto;
+margin-right: auto;
+
+
+font-weight: 600;
+font-size: 24px;
+line-height: 3.33;
+color: #000000;
+}
+.list-pricing{
+	display: flex;
+	flex-wrap:wrap;
+}
+.list-item-pricing{
+	width: 426px;
+	height: 584px;
+}
+.list-item-pricing:not(:first-child){
+	margin-left: 30px;
+}
+
+.undertitle-pricing{
+font-weight: 600;
+font-size: 18px;
+line-height: 1.56;
+color: #263238;
+}
+.text-pricing{
+font-weight: 400;
+font-size: 13px;
+line-height: 1.54;
+color: #8F95A5;
+}
+
 /* site-nav  */
 .main-nav {
   display: flex;
@@ -226,5 +269,6 @@ border-radius: 10px;
 /* <!-- Pricing Настя--> */
 /* <!-- Contact Us Лена--> */
 /* <!-- Люба --> */
+
 
 
