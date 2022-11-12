@@ -115,6 +115,56 @@ border-radius: 10px;
 
   color: #263238;
 }
+
+
+/* Hero */
+.hero {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.hero-title {
+	margin-bottom: 40px;
+	width: 386px;
+
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 1.25;
+
+	color: #000000;
+}
+
+.hero-text {
+	margin-bottom: 60px;
+	width: 540px;
+
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.hero-btn {
+    padding: 23px 64px;
+	width: 426px;
+
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.03em;
+	border: none;
+
+	background-color: #263238;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+.hero-first-div {
+	margin-right: 171px;
+}
+/* Hero */
+
 .nav-link:hover,
 .nav-link:focus {
   color: #939393;
@@ -176,4 +226,5 @@ border-radius: 10px;
 /* <!-- Pricing Настя--> */
 /* <!-- Contact Us Лена--> */
 /* <!-- Люба --> */
+
 
