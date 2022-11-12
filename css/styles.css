@@ -29,14 +29,61 @@ address {
 
 }
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #8F95A5;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+color: #8F95A5;
     }
 
 .container {
-    width: 1368px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+width: 1368px;
+margin-left: auto;
+margin-right: auto;
+padding: 0 15px;
 }
+/* section contact */
+
+.contact-container {
+display: flex;
+gap: 144px;
+}
+.contact-title {
+margin-bottom: 60px;
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 48px;
+line-height: calc(72 / 48);
+color: #000000;
+}
+.contact-text {
+max-width: 654px;
+margin-bottom: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+.contact-field-form {
+width: 425px;
+height: 70px;
+border: 1px solid #8F95A5;
+border-radius: 10px;
+}
+.btn-contact-form {
+min-width: 312px;
+padding: 20px 56px;
+margin-left:30px;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 20px;
+line-height: calc(30/20);
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background: #263238;
+border-radius: 10px;
+}
+
+
+
